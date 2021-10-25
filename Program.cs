@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 
 namespace AetherScriptsForL15Trainer
 {
@@ -6,7 +7,6 @@ namespace AetherScriptsForL15Trainer
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
         }
     }
 }
