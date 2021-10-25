@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "Learn": {
+      "commandName": "Project",
+      "commandLineArgs": "d:\\model\\trainingSet\\_contents.tsv d:\\model\\setup.tsv d:\\model\\modelX.zip"
+    }
+  }
+}

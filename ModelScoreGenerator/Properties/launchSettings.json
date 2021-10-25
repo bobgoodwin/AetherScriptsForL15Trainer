@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ModelScoreGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "d:\\model\\testSet\\_contents.tsv d:\\model\\modelX.zip d:\\model\\l15scores.tsv"
+    }
+  }
+}
