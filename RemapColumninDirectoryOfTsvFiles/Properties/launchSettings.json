@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "RemapColumninDirectoryOfTsvFiles": {
+      "commandName": "Project",
+      "commandLineArgs": "d:\\model\\trainingSet d:\\model\\trainingSetMangled 3,31=100,15=75,7=50,3=25"
+    }
+  }
+}

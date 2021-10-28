@@ -279,6 +279,12 @@ internal class Program
 	{
 		if (args.Length < 12)
 		{
+			Console.WriteLine("Need 12 inputs, saw " + args.Length);
+			foreach (var a in args)
+            {
+				Console.WriteLine($"-> {a}");
+            }
+
 			Console.WriteLine("CalculateFidelityFromDebugInfo idealFile queryIndex_IdealFile docIndex_IdealFile rateIndex_IdealFile recallFile  queryIndex_RecallFile docIndex_RecallFile outputFile hrsFile perQueryFidelity perfDebugFiel comparasionMethod(equal, jaccard)");
 			return;
 		}
