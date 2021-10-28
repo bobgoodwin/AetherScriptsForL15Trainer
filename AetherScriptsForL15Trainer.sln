@@ -5,9 +5,11 @@ VisualStudioVersion = 16.0.31729.503
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Learn", "Learn\Learn.csproj", "{92A32005-A57F-4107-A224-C80A6D8AF5E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelScoreGenerator", "ModelScoreGenerator\ModelScoreGenerator.csproj", "{EF63C06E-93AD-47F9-B53E-4376E841BA89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ModelScoreGenerator", "ModelScoreGenerator\ModelScoreGenerator.csproj", "{EF63C06E-93AD-47F9-B53E-4376E841BA89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Report", "Report\Report.csproj", "{197B0232-87EC-428E-AD1A-9F40C1E4389E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Report", "Report\Report.csproj", "{197B0232-87EC-428E-AD1A-9F40C1E4389E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculateFidelityFromDebugInfoV2", "CalculateFidelityFromDebugInfoV2\CalculateFidelityFromDebugInfoV2.csproj", "{745D1D3A-8325-4E2F-AB08-9A026E083218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{197B0232-87EC-428E-AD1A-9F40C1E4389E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{197B0232-87EC-428E-AD1A-9F40C1E4389E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{197B0232-87EC-428E-AD1A-9F40C1E4389E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{745D1D3A-8325-4E2F-AB08-9A026E083218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{745D1D3A-8325-4E2F-AB08-9A026E083218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{745D1D3A-8325-4E2F-AB08-9A026E083218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{745D1D3A-8325-4E2F-AB08-9A026E083218}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
